@@ -4,7 +4,7 @@ if(isNaN(size) || size <= 0){
 }
 else{
     for (row = 0; row < size; row++){
-        let line = " "
+        let line = ""
         for (col = 0; col < size; col++) {
             line += "X"
         }
